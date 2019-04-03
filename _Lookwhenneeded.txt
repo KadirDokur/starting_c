@@ -1,0 +1,49 @@
+ctrl+f6 compile alt+f6 run
+
+gcc -g asd.c -o asd.c.exe 
+
+sizeof(int) : Integer büyüklüğü byte cinsinden
+
+
+(Windows 10'da)
+char 1 byte
+short int 2 byte
+int 4 byte
+long int 4 byte
+float 4 byte
+double 8 byte
+long long int 8 byte
+long double 12 byte
+
+i = J = k = 0 : En sağdan atamaya başlıyor
+
+&& ve bağlacı true && false = false
+|| veya bağlacı true || false = true
+
+a = 9>7?3:5; // 9, 7'den büyükse a = 3 değilse a = 5
+
+getch (); conio.h kütüphanesinde exeyi açınca kapanmamasını sağlıyor
+
+sqrt(x): Karekök alma
+exp(x): e üssü x üs alma
+log(x): lnx
+log10(x): 10 tabanında logaritma
+fabs(x): x'in mutlak değeri
+ceil(x): x'i en büyük ilk tamsayıya yuvarla
+floor(x): x'i en küçük ilk tamsayıya yuvarla
+pow(x,y): x üssü y
+fmod(x,y): x/y'nin kalanı
+sin(x),cos(x),tan(x)
+
+#define SINIR 100
+const int SINIR2 100      aynı işi yapıyor.  #define direk işlemciye işler, const değişken kullanıp bellekte yer kaplar.
+
+printf("%d\n",sizeof(a)/sizeof(int)); a dizisinin boyutunu bulma
+
+void fonksiyon(dizi[],diziboyutu) // Tek boyutlu dizinin parametre olarak kullanımı
+
+void fonksiyon(dizi[][N],diziboyutu) // İki boyutlu dizinin parametre olarak kullanımı ve N girilmek zorunda
+
+Strlen() stringin uzunluğu
+
+
