@@ -1,4 +1,4 @@
-ctrl+f6 compile alt+f6 run
+﻿ctrl+f6 compile alt+f6 run
 
 gcc -g asd.c -o asd.c.exe 
 
@@ -22,7 +22,7 @@ i = J = k = 0 : En sağdan atamaya başlıyor
 
 a = 9>7?3:5; // 9, 7'den büyükse a = 3 değilse a = 5
 
-getch (); conio.h kütüphanesinde exeyi açınca kapanmamasını sağlıyor
+getch (); conio.h kütüphanesinde exeyi açınca kapanmamasını saglıyor
 
 sqrt(x): Karekök alma
 exp(x): e üssü x üs alma
